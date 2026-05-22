@@ -700,12 +700,12 @@
       <div class="path-header">
         <div class="path-label">Path A</div>
         <h3>Conservative</h3>
-        <div class="tagline">Higher success probability. Ship with tech you know. Validate with real product.</div>
+        <div class="tagline">Higher success probability. Ship with tech you know. More features. 4 weeks with 3x parallel instances.</div>
       </div>
       <div class="path-body">
         <div class="path-stat-row">
           <div class="path-stat">
-            <div class="value">10 wk</div>
+            <div class="value">4 wk</div>
             <div class="label">Timeline</div>
           </div>
           <div class="path-stat">
@@ -754,7 +754,7 @@
               <li>Real product feedback beats email signups</li>
               <li>$50/month is easier first conversion</li>
               <li>Proven stack (VS Code, Superhuman, Slack)</li>
-              <li>2 weeks buffer built in</li>
+              <li>3-day buffer built in</li>
             </ul>
           </div>
           <div class="cons">
@@ -776,12 +776,12 @@
       <div class="path-header">
         <div class="path-label">Path B</div>
         <h3>Aggressive</h3>
-        <div class="tagline">Faster product, higher risk. Learn Rust. Ship contacts-only. Premium price.</div>
+        <div class="tagline">Fastest product, higher risk. Learn Rust. Ship contacts-only in 3 weeks. Premium price.</div>
       </div>
       <div class="path-body">
         <div class="path-stat-row">
           <div class="path-stat">
-            <div class="value">6-8 wk</div>
+            <div class="value">3 wk</div>
             <div class="label">Timeline</div>
           </div>
           <div class="path-stat">
@@ -840,7 +840,7 @@
               <li>Contacts-only may not justify $75/month</li>
               <li>Email signups are a weak demand signal</li>
               <li>Smaller ecosystem, fewer answers when stuck</li>
-              <li>No timeline buffer</li>
+              <li>Minimal timeline buffer</li>
               <li>Tauri v2 less mature than Electron</li>
             </ul>
           </div>
@@ -1062,28 +1062,28 @@
           <tbody>
             <tr>
               <td>Contacts only</td>
-              <td>6-8 weeks</td>
+              <td>~3 weeks</td>
               <td>Weak alone</td>
               <td>May not justify price</td>
               <td><span class="score mid">6/10</span></td>
             </tr>
             <tr>
               <td>Contacts + Deals</td>
-              <td>8-10 weeks</td>
+              <td>~4 weeks</td>
               <td>Solid MVP</td>
               <td>Scope creep</td>
               <td><span class="score high">8/10</span></td>
             </tr>
             <tr>
               <td>Contacts + Deals + Inbox</td>
-              <td>12-14 weeks</td>
+              <td>5-6 weeks</td>
               <td>Full CRM</td>
-              <td>Too long to validate</td>
+              <td>Longer to validate</td>
               <td><span class="score mid">5/10</span></td>
             </tr>
             <tr>
               <td>Full CRM + Sync</td>
-              <td>16+ weeks</td>
+              <td>7-8 weeks</td>
               <td>Complete</td>
               <td>Building without validation</td>
               <td><span class="score low">3/10</span></td>
@@ -1091,8 +1091,8 @@
           </tbody>
         </table>
         <div class="rationale">
-          <strong>Path A picks Contacts + Deals</strong> because a contact manager alone struggles to justify $50/month. Folk and Attio include deals at a similar price point. Adding a simple deals pipeline (kanban board, deal stages, basic filtering) costs 2-3 extra weeks but makes the product a real CRM, not just an address book.<br><br>
-          <strong>Path B picks Contacts Only</strong> because speed matters more than features. Ship the minimum, validate that keyboard-first + local-first resonates, then add deals. Obsidian launched notes-only (no sync, no plugins) and grew to $10M+ ARR. The value is the experience, not the feature count.<br><br>
+          <strong>Path A picks Contacts + Deals</strong> because a contact manager alone struggles to justify $50/month. Folk and Attio include deals at a similar price point. Adding a simple deals pipeline (kanban board, deal stages, basic filtering) costs ~1 extra week with parallel instances but makes the product a real CRM, not just an address book.<br><br>
+          <strong>Path B picks Contacts Only</strong> because speed matters more than features. Ship the minimum, validate that keyboard-first + local-first resonates, then add deals in week 4-5. Obsidian launched notes-only (no sync, no plugins) and grew to $10M+ ARR. The value is the experience, not the feature count.<br><br>
           <strong>Key question:</strong> Would a consultant you know pay $50-75/month for a blazing-fast contact manager with keyboard shortcuts but no deals pipeline? If yes, contacts-only is fine. If no, you need deals in MVP.
         </div>
       </div>
@@ -1152,7 +1152,7 @@
         </table>
         <div class="rationale">
           <strong>Path A builds an alpha first</strong> because showing beats telling. A rough but working product in 2-3 weeks gives you real feedback: do people actually use the keyboard shortcuts? Do they care about speed? You can cold-message 20 consultants on LinkedIn and learn more in one week of real usage than 30 days of email signups.<br><br>
-          <strong>Path B runs landing page validation</strong> because it's cheaper in total time. If nobody signs up for the email list, you saved 6-8 weeks of building. $2,200 is a small price vs. 2 months of your time. The counter-argument: people sign up for everything. 100 email signups doesn't mean 100 paying customers. It might mean 2.<br><br>
+          <strong>Path B runs landing page validation</strong> because it's cheaper in total time. If nobody signs up for the email list, you saved 3 weeks of building. $2,200 is a small price vs. 3 weeks of your time. The counter-argument: people sign up for everything. 100 email signups doesn't mean 100 paying customers. It might mean 2.<br><br>
           <strong>Third option worth considering:</strong> Pre-sell. Build a landing page, but instead of email signups, ask for $50 refundable deposits. "Pay $50 now, get lifetime access at $50/month when we launch." If 20+ people pay, that's real validation. If nobody pays, you know.
         </div>
       </div>
@@ -1386,12 +1386,71 @@
       <summary>
         <span class="decision-num">8</span>
         <div class="decision-title">
-          <h3>Timeline & Buffer <span class="differs-badge a">Path A: 10 weeks</span> <span class="differs-badge b">Path B: 6-8 weeks</span></h3>
-          <div class="pick">How much buffer to build in</div>
+          <h3>Timeline & Buffer <span class="differs-badge a">Path A: 4 weeks</span> <span class="differs-badge b">Path B: 3 weeks</span></h3>
+          <div class="pick">3x parallel Claude Code instances compress timeline dramatically</div>
         </div>
         <span class="chevron">&#9654;</span>
       </summary>
       <div class="decision-content">
+        <div class="rationale" style="margin-bottom: 20px; border-left: 3px solid var(--accent-a);">
+          <strong>Development model: 3 parallel Claude Code instances.</strong> You're not writing code line-by-line. You're orchestrating 3 AI agents simultaneously, each working on independent modules. This compresses parallelizable work by ~3x. Sequential work (foundation, integration, final polish) remains 1x. The bottleneck shifts from coding speed to architectural decisions and integration testing.
+        </div>
+
+        <h4 style="margin: 0 0 12px; font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Sequential vs Parallel Work</h4>
+        <table class="alt-table">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Sequential?</th>
+              <th>Solo Estimate</th>
+              <th>3x Parallel Estimate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Foundation + Setup</td>
+              <td>Yes (must come first)</td>
+              <td>1 week</td>
+              <td>1 week</td>
+            </tr>
+            <tr>
+              <td>Contacts CRUD + Search</td>
+              <td>Partially (needs foundation)</td>
+              <td>1.5 weeks</td>
+              <td>3-4 days</td>
+            </tr>
+            <tr>
+              <td>Tags + Custom Fields</td>
+              <td>No (parallel with CSV, keyboard)</td>
+              <td>1 week</td>
+              <td rowspan="3" style="vertical-align: middle; text-align: center; color: var(--green); font-weight: 600;">3-4 days<br><span style="font-size: 11px; color: var(--text-muted); font-weight: 400;">All 3 built simultaneously<br>by separate instances</span></td>
+            </tr>
+            <tr>
+              <td>CSV Import/Export</td>
+              <td>No (parallel with tags, keyboard)</td>
+              <td>0.5 weeks</td>
+            </tr>
+            <tr>
+              <td>Keyboard Shortcuts + cmdk</td>
+              <td>No (parallel with tags, CSV)</td>
+              <td>1.5 weeks</td>
+            </tr>
+            <tr>
+              <td>Deals Pipeline (Path A only)</td>
+              <td>No (parallel with keyboard)</td>
+              <td>2 weeks</td>
+              <td>3-4 days (parallel)</td>
+            </tr>
+            <tr>
+              <td>Integration + Polish</td>
+              <td>Partially (merge + test)</td>
+              <td>1.5 weeks</td>
+              <td>3-4 days</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4 style="margin: 20px 0 12px; font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Compressed Timeline</h4>
         <table class="alt-table">
           <thead>
             <tr>
@@ -1403,54 +1462,41 @@
           <tbody>
             <tr>
               <td>Foundation + Setup</td>
-              <td>1 week</td>
-              <td>2 weeks (Rust learning)</td>
+              <td>3 days</td>
+              <td>4-5 days (Rust toolchain)</td>
             </tr>
             <tr>
-              <td>Contacts CRUD + Search</td>
-              <td>1.5 weeks</td>
-              <td>1.5 weeks</td>
+              <td>Contacts CRUD + Search + FTS5</td>
+              <td>3-4 days</td>
+              <td>3-4 days</td>
             </tr>
             <tr>
-              <td>Tags + Custom Fields</td>
-              <td>1 week</td>
-              <td>1 week</td>
+              <td>Tags + Custom Fields + CSV + Keyboard + Deals (parallel)</td>
+              <td>4-5 days (3 instances)</td>
+              <td>3-4 days (3 instances, no deals)</td>
             </tr>
             <tr>
-              <td>CSV Import/Export</td>
-              <td>0.5 weeks</td>
-              <td>0.5 weeks</td>
-            </tr>
-            <tr>
-              <td>Deals Pipeline</td>
-              <td>2 weeks</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Keyboard Shortcuts + cmdk</td>
-              <td>1.5 weeks</td>
-              <td>1.5 weeks</td>
-            </tr>
-            <tr>
-              <td>Polish + Testing</td>
-              <td>1.5 weeks</td>
-              <td>1.5 weeks</td>
+              <td>Integration + Polish + Installers</td>
+              <td>3-4 days</td>
+              <td>3 days</td>
             </tr>
             <tr>
               <td>Buffer</td>
-              <td>1 week</td>
-              <td>0 weeks</td>
+              <td>3 days</td>
+              <td>2 days</td>
             </tr>
             <tr>
               <td><strong>Total</strong></td>
-              <td><strong>10 weeks</strong></td>
-              <td><strong>8 weeks</strong></td>
+              <td><strong>~4 weeks</strong></td>
+              <td><strong>~3 weeks</strong></td>
             </tr>
           </tbody>
         </table>
+
         <div class="rationale">
-          <strong>Industry context:</strong> A team building a CRM from scratch takes 3-6 months. Both paths are aggressive for a solo developer. Path A adds a buffer week and deals pipeline, costing 2 extra weeks but delivering a more complete product. Path B is tight with zero buffer, meaning any unexpected issue (Mac code signing, Rust compiler fights, UI polish spirals) pushes the deadline.<br><br>
-          <strong>Honest assessment:</strong> 8 weeks with Tauri is possible but leaves no room for error. 10 weeks with Electron is more realistic and delivers more. If you're disciplined about scope (no "just one more feature"), either works.
+          <strong>Why the compression works:</strong> After foundation is set up (sequential, ~3-5 days), the codebase splits into independent modules. Instance 1 builds tags + custom fields. Instance 2 builds CSV import/export. Instance 3 builds keyboard shortcuts + command palette. In Path A, one instance also handles the deals pipeline in parallel. These modules touch different files and don't conflict. Integration at the end (merging, testing interactions between modules, polish) is the remaining sequential bottleneck.<br><br>
+          <strong>Where it doesn't compress:</strong> Architectural decisions (schema design, component structure, state management) still need your brain. Foundation/scaffolding must be done first so instances have a shared base. Integration testing at the end can't be parallelized. The real timeline risk shifts from "coding speed" to "merge conflicts and integration bugs" between parallel streams.<br><br>
+          <strong>Realistic constraint:</strong> 3 instances produce code fast but can make inconsistent decisions (different naming conventions, state patterns, error handling). Budget 2-3 days at the end for unifying code style, fixing integration issues, and ensuring the modules work together. This is where your judgment matters most.
         </div>
       </div>
     </details>
@@ -1459,115 +1505,102 @@
   <!-- Timelines -->
   <div class="timeline-section">
     <h2>Week-by-Week Timelines</h2>
+    <p class="subtitle" style="text-align: center; color: var(--text-muted); font-size: 15px; margin: -30px 0 40px;">3 parallel Claude Code instances. Color-coded: <span style="color: var(--accent-a);">Instance 1</span> / <span style="color: var(--accent-b);">Instance 2</span> / <span style="color: var(--green);">Instance 3</span></p>
     <div class="timelines">
       <div class="timeline tl-a">
-        <h3>Path A: Conservative (10 weeks)</h3>
+        <h3>Path A: Conservative (4 weeks)</h3>
         <div class="week-block">
-          <div class="week-marker">Wk 1</div>
+          <div class="week-marker">Day 1-3</div>
           <div class="week-content">
-            <h4>Foundation</h4>
-            <p>Electron setup, SQLite integration, basic window chrome, project structure. Build rough alpha prototype with contact list.</p>
+            <h4>Foundation (sequential)</h4>
+            <p>Electron setup, project structure, SQLite integration, schema creation, FTS5 setup. All 3 instances on the same codebase establishing shared patterns, conventions, and base architecture.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 2</div>
+          <div class="week-marker">Day 4-7</div>
           <div class="week-content">
-            <h4>Contacts Core</h4>
-            <p>Contact CRUD, FTS5 search, contact detail view, basic list with virtual scrolling.</p>
+            <h4>Contacts Core (partially parallel)</h4>
+            <p><span style="color: var(--accent-a);">I1:</span> Contact CRUD + detail view. <span style="color: var(--accent-b);">I2:</span> FTS5 search + virtual scrolling list. <span style="color: var(--green);">I3:</span> Contact form validation + JSONB custom fields schema.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 3</div>
+          <div class="week-marker">Day 8-12</div>
           <div class="week-content">
-            <h4>Show Alpha to 20 People</h4>
-            <p>Cold outreach on LinkedIn. Show rough alpha. Collect feedback. Continue building tags + custom fields in parallel.</p>
+            <h4>Features Sprint (full parallel)</h4>
+            <p><span style="color: var(--accent-a);">I1:</span> Tags system + custom fields UI. <span style="color: var(--accent-b);">I2:</span> CSV import/export + field mapping UI. <span style="color: var(--green);">I3:</span> Command palette (cmdk) + global keyboard shortcuts.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 4</div>
+          <div class="week-marker">Day 13-17</div>
           <div class="week-content">
-            <h4>Decision Point + CSV</h4>
-            <p>Based on feedback: proceed, pivot, or stop. If proceeding: CSV import/export with field mapping UI.</p>
+            <h4>Deals + Keyboard (full parallel)</h4>
+            <p><span style="color: var(--accent-a);">I1:</span> Deals table + kanban board + drag-and-drop stages. <span style="color: var(--accent-b);">I2:</span> j/k navigation, chord shortcuts (g+c, g+d), keyboard help modal. <span style="color: var(--green);">I3:</span> Focus management (react-focus-lock) + link deals to contacts.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 5-6</div>
+          <div class="week-marker">Day 18-21</div>
           <div class="week-content">
-            <h4>Deals Pipeline</h4>
-            <p>Deals table, kanban board UI, deal stages, basic filtering. Drag-and-drop stage transitions. Link deals to contacts.</p>
+            <h4>Integration + Polish</h4>
+            <p>Merge parallel streams. Fix integration issues, unify code style, performance optimization. Show alpha to 20 consultants via LinkedIn outreach.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 7-8</div>
+          <div class="week-marker">Day 22-26</div>
           <div class="week-content">
-            <h4>Keyboard UX</h4>
-            <p>Command palette (cmdk), global shortcuts, j/k navigation, g+c/g+d chord navigation, keyboard help modal, focus management.</p>
-          </div>
-        </div>
-        <div class="week-block">
-          <div class="week-marker">Wk 9</div>
-          <div class="week-content">
-            <h4>Polish + Installers</h4>
-            <p>Performance optimization, error handling, Mac/Windows/Linux installers, code signing, auto-updater setup.</p>
-          </div>
-        </div>
-        <div class="week-block">
-          <div class="week-marker">Wk 10</div>
-          <div class="week-content">
-            <h4>Buffer + Beta</h4>
-            <p>Bug fixes from alpha feedback, performance testing with 100K dummy contacts, beta release to 20-50 users at $50/month.</p>
+            <h4>Installers + Buffer + Beta</h4>
+            <p>Mac/Windows/Linux installers, code signing, auto-updater. Bug fixes from alpha feedback. Performance testing with 100K dummy contacts. Beta release at $50/month.</p>
           </div>
         </div>
       </div>
       <div class="timeline tl-b">
-        <h3>Path B: Aggressive (8 weeks)</h3>
+        <h3>Path B: Aggressive (3 weeks)</h3>
         <div class="week-block">
-          <div class="week-marker">Wk 0</div>
+          <div class="week-marker">Day 0</div>
           <div class="week-content">
-            <h4>Validation (parallel)</h4>
-            <p>Launch landing page + LinkedIn/Reddit ads ($2,200). Collect email signups. Decision point at 100+ signups. Runs parallel to Week 1-2.</p>
+            <h4>Validation (parallel to build)</h4>
+            <p>Launch landing page + LinkedIn/Reddit ads ($2,200). Runs in background throughout. Decision point at 100+ signups.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 1-2</div>
+          <div class="week-marker">Day 1-4</div>
           <div class="week-content">
-            <h4>Foundation + Learn Rust</h4>
-            <p>Tauri 2.0 setup, Rust basics, SQLite integration via Tauri commands, basic window, contact schema, FTS5 setup, basic CRUD.</p>
+            <h4>Foundation (sequential)</h4>
+            <p>Tauri 2.0 + Rust toolchain setup, SQLite integration via Tauri commands, contact schema, FTS5 setup, basic window chrome. Slightly longer than Electron due to Rust toolchain.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 3-4</div>
+          <div class="week-marker">Day 5-8</div>
           <div class="week-content">
-            <h4>Core Features</h4>
-            <p>Contact list UI with virtual scrolling, contact detail form, tags system, custom fields (JSONB hybrid), search UI.</p>
+            <h4>Contacts + Search (partially parallel)</h4>
+            <p><span style="color: var(--accent-a);">I1:</span> Contact CRUD + detail form + validation. <span style="color: var(--accent-b);">I2:</span> FTS5 search UI + virtual scrolling list. <span style="color: var(--green);">I3:</span> Custom fields (JSONB hybrid) + schema setup.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 5</div>
+          <div class="week-marker">Day 9-13</div>
           <div class="week-content">
-            <h4>CSV + Backup</h4>
-            <p>CSV import with field mapping, CSV export, SQLite file backup/restore, optional Litestream to S3.</p>
+            <h4>All Features (full parallel)</h4>
+            <p><span style="color: var(--accent-a);">I1:</span> Tags system + custom fields UI + filtering. <span style="color: var(--accent-b);">I2:</span> CSV import/export + field mapping + SQLite backup. <span style="color: var(--green);">I3:</span> Command palette (cmdk) + global shortcuts + j/k navigation + chord keys.</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 6-7</div>
+          <div class="week-marker">Day 14-17</div>
           <div class="week-content">
-            <h4>Keyboard UX</h4>
-            <p>Command palette (cmdk), global shortcuts (Cmd+K, j/k, Cmd+N), chord navigation (g+c), keyboard help modal, focus management.</p>
+            <h4>Integration + Polish</h4>
+            <p>Merge parallel streams. Focus management (react-focus-lock), keyboard help modal. Unify code style, fix integration bugs, performance optimization (&lt;50ms search, &lt;2s cold start).</p>
           </div>
         </div>
         <div class="week-block">
-          <div class="week-marker">Wk 8</div>
+          <div class="week-marker">Day 18-21</div>
           <div class="week-content">
-            <h4>Polish + Alpha</h4>
-            <p>Performance optimization (&lt;50ms search, &lt;2s cold start), error handling, installers (Mac/Win/Linux), alpha release to 10-20 users.</p>
+            <h4>Installers + Alpha</h4>
+            <p>Mac/Windows/Linux installers, code signing. Bug fixes, error handling. Alpha release to 10-20 users from landing page signups.</p>
           </div>
         </div>
         <div class="week-block">
           <div class="week-marker">Post</div>
           <div class="week-content">
-            <h4>Phase 2 (Month 2-3)</h4>
-            <p>Add deals pipeline, cloud sync (PowerSync), conversations/inbox. Scale to 200-300 customers.</p>
+            <h4>Phase 2 (Week 4-8)</h4>
+            <p>Deals pipeline, cloud sync (PowerSync), conversations/inbox. Same 3-instance parallel model. Scale to 200-300 customers.</p>
           </div>
         </div>
       </div>
@@ -1612,8 +1645,8 @@
       <div class="risk-card">
         <h4>Solo Founder Burnout</h4>
         <div class="severity med">MEDIUM &mdash; Both paths</div>
-        <p>6-10 weeks of solo full-time development with no revenue and uncertain market validation. If validation is ambiguous, motivation can collapse.</p>
-        <div class="mitigation"><strong>Mitigation:</strong> Set a hard kill date. If no paying customer by Week 12, stop and reassess. Build in public (Twitter/LinkedIn) for external accountability. Weekly demos force progress and create content.</div>
+        <p>3-4 weeks of intense development orchestrating parallel AI instances with no revenue and uncertain market validation. Pace is fast but can be mentally taxing.</p>
+        <div class="mitigation"><strong>Mitigation:</strong> Set a hard kill date. If no paying customer by Week 6, stop and reassess. Build in public (Twitter/LinkedIn) for external accountability. The compressed timeline actually helps: you get to validation faster, reducing the uncertainty window.</div>
       </div>
     </div>
   </div>
@@ -1624,13 +1657,13 @@
     <div class="summary-box">
       <p><strong>Both paths lead to the same product.</strong> A local-first, keyboard-driven desktop CRM for solo consultants. The difference is sequencing: Path A ships a more complete product slower with less risk. Path B ships a thinner product faster with more risk.</p>
 
-      <p><strong>If you want to minimize risk:</strong> Path A. Electron, contacts + deals, $50/month, 10 weeks. You'll ship a product that competes with Folk and Attio on features while being faster. Validate with a real alpha, not email signups.</p>
+      <p><strong>If you want to minimize risk:</strong> Path A. Electron, contacts + deals, $50/month, 4 weeks. You'll ship a product that competes with Folk and Attio on features while being faster. Validate with a real alpha, not email signups.</p>
 
-      <p><strong>If you want to move fast and bet on speed as the differentiator:</strong> Path B. Tauri, contacts-only, $75/month, 6-8 weeks. You're betting that "fastest CRM on earth" is compelling enough without a deals pipeline. Higher upside if it works, higher risk if consultants want a full CRM.</p>
+      <p><strong>If you want to move fast and bet on speed as the differentiator:</strong> Path B. Tauri, contacts-only, $75/month, 3 weeks. You're betting that "fastest CRM on earth" is compelling enough without a deals pipeline. Higher upside if it works, higher risk if consultants want a full CRM.</p>
 
-      <p><strong>What I'd actually do:</strong> Take Path A's technology choice (Electron) with Path B's scope (contacts-only) and Path A's validation (build alpha, show people). Ship a fast Electron contacts app in 6 weeks, show it to 20 consultants, and let their feedback tell you whether to add deals next or whether the whole thesis is wrong. Price at $50/month to start, raise to $75 after adding deals + sync.</p>
+      <p><strong>What I'd actually do:</strong> Take Path A's technology choice (Electron) with Path B's scope (contacts-only) and Path A's validation (build alpha, show people). Ship a fast Electron contacts app in ~2.5 weeks with 3 parallel instances, show it to 20 consultants, and let their feedback tell you whether to add deals next or whether the whole thesis is wrong. Price at $50/month to start, raise to $75 after adding deals + sync. With this dev velocity, you can have deals shipped within a week of deciding to add them.</p>
 
-      <p><strong>The one decision that matters most:</strong> Validation timing. Whether you build alpha first or run ads first determines everything. Don't spend 8 weeks building something nobody asked for. Talk to 10 consultants this week, before writing a line of code.</p>
+      <p><strong>The one decision that matters most:</strong> Validation timing. Whether you build alpha first or run ads first determines everything. But with 3 parallel Claude Code instances, the build is so fast that "build alpha then validate" is now strictly better than "run ads for 30 days." You can have a working product in people's hands before a landing page ad campaign would even finish running.</p>
     </div>
   </div>
 </div>
